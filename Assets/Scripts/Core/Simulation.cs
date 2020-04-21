@@ -128,6 +128,7 @@ namespace Platformer.Core
                     {
                         //This really should never happen inside a production build.
                         Debug.LogError($"No Pool for: {ev.GetType()}");
+                        Debug.LogError($"hahahahah");
                     }
                 }
                 executedEventCount++;
